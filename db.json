@@ -1,0 +1,10 @@
+{
+  "admin": [
+    {
+      "name": "Shahvaiz",
+      "password": "qwerty",
+      "select": "admin",
+      "id": 1
+    }
+  ]
+}

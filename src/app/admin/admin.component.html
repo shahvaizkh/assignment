@@ -1,0 +1,45 @@
+<app-header></app-header>
+
+<h1>Admin</h1>
+
+<div class="container mt-4">
+    <h1 style="text-align: center;">Data Table</h1>
+  
+    <table class="table">
+  
+      <!-- Header of table -->
+  
+      <thead>
+        <tr>
+          <th>Id</th>
+          <th>Name</th>
+          <th>Password</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+  
+      <!-- Data of table -->
+      
+      <tbody>
+        <tr *ngFor="let item of personData">
+          <td>{{ item.id }}</td>
+          <td>{{ item.name }}</td>
+          <td>{{ item.password }}</td>
+          <td>
+            <button class="btn btn-success btn-sm" >Edit</button> &nbsp;
+            <button class="btn btn-danger btn-sm" >Delete</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+ 
+<!-- <div class="sidebar">
+    <ul class="list-group">
+      <li class="list-group-item">Home</li>
+      <li class="list-group-item">About</li>
+      <li class="list-group-item">Services</li>
+      <li class="list-group-item">Contact</li>
+    </ul>
+  </div> -->
