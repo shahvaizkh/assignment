@@ -1,21 +1,3 @@
-/* .sidebar {
-    height: 100%;
-    width: 200px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color: #343a40; 
-    padding-top: 20px;
-  }
-  
-  .list-group-item {
-    background-color: #343a40;
-    border: none;
-    color: white;
-    cursor: pointer;
-  }
-  
-  .list-group-item:hover {
-    background-color: #495057;
-  }
-   */
+.center {
+  text-align: center;
+}

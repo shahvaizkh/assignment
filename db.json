@@ -5,6 +5,17 @@
       "password": "qwerty",
       "select": "admin",
       "id": 1
+    },
+    {
+      "name": "Shahvaiz",
+      "password": "qwerty",
+      "select": "admin",
+      "id": 2
+    },
+    {
+      "name": "hbl12",
+      "password": "hbl123",
+      "id": 3
     }
   ]
 }

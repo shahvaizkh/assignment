@@ -8,6 +8,8 @@ import { UserComponent } from './user/user.component';
 const routes: Routes = [
   { path: '', redirectTo: '/login', pathMatch: 'full' },
   { path: 'admin', component: AdminComponent },
+  { path: 'user-edit/:userId', component: AdminComponent },
+
   { path: 'moderator', component: ModeratorComponent },
   { path: 'users', component: UserComponent },
   { path: 'login', component: LoginComponent },
