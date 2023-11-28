@@ -1,0 +1,23 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: #333;
+    color: white;
+  }
+  
+  .navbar-brand {
+    /* font-size: 1.5rem; */
+    outline: none;
+  }
+  
+  .navbar-links button {
+    background-color: #fff;
+    color: #333;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+  }
+  

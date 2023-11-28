@@ -3,7 +3,7 @@
 <div class="row">
     <div class="col-lg-6">
         <h4 style="padding: 20px;"><b>
-                < Admin Dashboard>
+                < Admin Dashboard >
             </b></h4>
     </div>
 </div>
@@ -26,6 +26,14 @@
                         <div class="formGroup">
                             <label for="message">Password</label>
                             <input type="password" id="password" class="form-control" formControlName="password">
+                        </div>
+                        <div class="formGroup">
+                            <label for="role">Role</label>
+                            <select id="role" class="form-control" formControlName="role">
+                                <option value="ADMIN">Admin</option>
+                                <option value="MODERATOR">Moderator</option>
+                                <option value="USER">User</option>
+                            </select>
                         </div>
                         <br>
                         <button type="submit" class="btn btn-primary"> {{userId > 0 ? 'Edit User' : 'Add User'}}</button>
@@ -54,6 +62,7 @@
                     <th>Id</th>
                     <th>Name</th>
                     <th>Password</th>
+                    <th>User Type</th>
                     <th>Actions</th>
                 </tr>
             </thead>
@@ -65,6 +74,7 @@
                     <td>{{ item.id }}</td>
                     <td>{{ item.name }}</td>
                     <td>{{ item.password }}</td>
+                    <td>{{ item.role }}</td>
                     <td>
                         <button class="btn btn-success" (click)="updatePersons(item.id)">Edit</button> &nbsp;
                         <button class="btn btn-danger" (click)="deletePersons(item.id)">Delete</button>

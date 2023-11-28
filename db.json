@@ -1,21 +1,26 @@
 {
   "admin": [
     {
-      "name": "Shahvaiz",
-      "password": "qwerty",
-      "select": "admin",
+      "name": "hbl123",
+      "password": "hbl123",
+      "role": "MODERATOR",
       "id": 1
     },
     {
-      "name": "Shahvaiz",
-      "password": "qwerty",
-      "select": "admin",
+      "name": "admin1",
+      "password": "test123",
+      "role": "ADMIN",
       "id": 2
-    },
+    }
+  ],
+  "signup": [
     {
-      "name": "hbl12",
-      "password": "hbl123",
-      "id": 3
+      "username": "azzam",
+      "email": "azzam_trader",
+      "password": "Hbl@123",
+      "role": "ADMIN",
+      "status": "Approved",
+      "id": 1
     }
   ]
 }

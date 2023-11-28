@@ -8,10 +8,13 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AdminComponent } from './admin/admin.component';
-import { ModeratorComponent } from './moderator/moderator.component';
 import { UserComponent } from './user/user.component';
 import { LogoutComponent } from './logout/logout.component';
-import { HeaderComponent } from './header/header.component'; // Don't forget to import ReactiveFormsModule
+import { HeaderComponent } from './header/header.component';
+import { SignUpComponent } from './sign-up/sign-up.component';
+import { ManageModeratorComponent } from './admin/manage-moderator/manage-moderator.component';
+import { ManageUserComponent } from './admin/manage-user/manage-user.component'; // Don't forget to import ReactiveFormsModule
+import { ModeratorComponent } from './moderator/moderator.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +25,9 @@ import { HeaderComponent } from './header/header.component'; // Don't forget to 
     UserComponent,
     LogoutComponent,
     HeaderComponent,
+    SignUpComponent,
+    ManageModeratorComponent,
+    ManageUserComponent,
   ],
   imports: [
     BrowserModule,
